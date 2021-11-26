@@ -4,6 +4,9 @@ audio.offload.min.duration.secs=30
 # Charger
 ro.charger.enable_suspend=true
 
+# Camera
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.pixelexperience.faceunlock
+
 # CNE
 persist.vendor.cne.feature=1
 
