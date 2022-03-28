@@ -156,6 +156,10 @@ PRODUCT_PACKAGES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# Dolby Vision
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/media_codecs_with_dolby_lahaina.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_with_dolby_lahaina.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
@@ -294,6 +298,7 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk \
     libminijail \
     libavservices_minijail \
+    libavservices_minijail_vendor \
     libavservices_minijail.vendor \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor
