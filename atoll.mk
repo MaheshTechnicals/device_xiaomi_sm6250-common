@@ -265,6 +265,10 @@ PRODUCT_PACKAGES += \
     SM6250LineageDialer \
     SM6250LineageSDK
 
+PRODUCT_PACKAGES += \
+   ApertureOverlay \
+   ApertureDevOverlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
