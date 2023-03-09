@@ -80,8 +80,10 @@ vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 
 # Audio FX modules
+vendor/lib/soundfx/libspatialaudio.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib64/soundfx/libspatialaudio.so
 
 # Battery
 vendor/bin/batterysecret
