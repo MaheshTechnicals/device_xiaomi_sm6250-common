@@ -328,7 +328,6 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full \
     librmnetctl \
     libxml2
 
