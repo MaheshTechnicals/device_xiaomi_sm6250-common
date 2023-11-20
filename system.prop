@@ -5,6 +5,7 @@ audio.offload.min.duration.secs=30
 ro.charger.enable_suspend=true
 
 # Camera
+ro.miui.notch=1
 vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.pixelexperience.faceunlock
 persist.vendor.camera.privapp.list=com.android.camera,org.lineageos.aperture
 
