@@ -96,7 +96,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 
 KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := cust_defconfig
+TARGET_KERNEL_CONFIG := vendor/xiaomi/miatoll_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6250
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r498229b/bin
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r498229b
